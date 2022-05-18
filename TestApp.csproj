@@ -1,0 +1,172 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>net5</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <EmbeddedResource Update="App.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Pages/MainPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages/MainPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="yes/dhhx.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages/MainPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages/main/MainPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages/MainPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages/HelloPage/helloPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages/MainPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages/MainPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages/MainPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages/MainPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages/MainPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages/MainPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages/MainPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages/MainPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages/MainPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages/MainPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages/nigga/dhd.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages/MainPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages/MainPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0" />
+    <PackageReference Include="xamarin.android.support.annotations" Version="28.0.0.3" />
+    <PackageReference Include="xamarin.forms.bootstrap.icons" Version="1.5.0" />
+    <PackageReference Include="xamarin.google.android.material" Version="1.0.0" />
+    <PackageReference Include="xamarin.androidx.transition" Version="1.2.0" />
+    <PackageReference Include="xamarin.androidx.legacy.support.v4" Version="1.0.0" />
+    <PackageReference Include="xamarin.androidx.browser" Version="1.0.0" />
+    <PackageReference Include="xamarin.androidx.legacy.support.core.ui" Version="1.0.0" />
+    <PackageReference Include="xamarin.androidx.appcompat" Version="1.1.0" />
+    <PackageReference Include="xamarin.androidx.viewpager" Version="1.0.0" />
+    <PackageReference Include="xamarin.androidx.fragment" Version="1.1.0" />
+    <PackageReference Include="xamarin.androidx.appcompat.resources" Version="1.1.0" />
+    <PackageReference Include="xamarin.androidx.vectordrawable.animated" Version="1.1.0" />
+    <PackageReference Include="xamarin.androidx.swiperefreshlayout" Version="1.0.0" />
+    <PackageReference Include="xamarin.androidx.slidingpanelayout" Version="1.0.0" />
+    <PackageReference Include="xamarin.androidx.recyclerview" Version="1.1.0" />
+    <PackageReference Include="xamarin.androidx.vectordrawable" Version="1.1.0" />
+    <PackageReference Include="xamarin.androidx.media" Version="1.1.0" />
+    <PackageReference Include="xamarin.androidx.legacy.support.core.utils" Version="1.0.0" />
+    <PackageReference Include="xamarin.androidx.drawerlayout" Version="1.0.0" />
+    <PackageReference Include="xamarin.androidx.loader" Version="1.1.0" />
+    <PackageReference Include="xamarin.androidx.coordinatorlayout" Version="1.1.0" />
+    <PackageReference Include="xamarin.androidx.customview" Version="1.0.0" />
+    <PackageReference Include="xamarin.androidx.activity" Version="1.0.0" />
+    <PackageReference Include="xamarin.androidx.asynclayoutinflater" Version="1.0.0" />
+    <PackageReference Include="xamarin.androidx.core" Version="1.1.0" />
+    <PackageReference Include="xamarin.androidx.versionedparcelable" Version="1.1.0" />
+    <PackageReference Include="xamarin.androidx.savedstate" Version="1.0.0" />
+    <PackageReference Include="xamarin.androidx.print" Version="1.0.0" />
+    <PackageReference Include="xamarin.androidx.localbroadcastmanager" Version="1.0.0" />
+    <PackageReference Include="xamarin.androidx.lifecycle.viewmodel" Version="2.1.0" />
+    <PackageReference Include="xamarin.androidx.lifecycle.livedata" Version="2.1.0" />
+    <PackageReference Include="xamarin.androidx.lifecycle.common" Version="2.1.0" />
+    <PackageReference Include="xamarin.androidx.interpolator" Version="1.0.0" />
+    <PackageReference Include="xamarin.androidx.lifecycle.runtime" Version="2.1.0" />
+    <PackageReference Include="xamarin.androidx.lifecycle.livedata.core" Version="2.1.0" />
+    <PackageReference Include="xamarin.androidx.documentfile" Version="1.0.1" />
+    <PackageReference Include="xamarin.androidx.cardview" Version="1.0.0" />
+    <PackageReference Include="xamarin.androidx.collection" Version="1.1.0" />
+    <PackageReference Include="xamarin.androidx.annotation" Version="1.1.0" />
+    <PackageReference Include="xamarin.androidx.migration" Version="1.0.0" />
+    <PackageReference Include="xamarin.androidx.cursoradapter" Version="1.0.0" />
+    <PackageReference Include="xamarin.androidx.arch.core.runtime" Version="2.1.0" />
+    <PackageReference Include="xamarin.androidx.multidex" Version="2.0.1" />
+    <PackageReference Include="xamarin.androidx.arch.core.common" Version="2.1.0" />
+  </ItemGroup>
+  <PropertyGroup>
+    <EnableDefaultCompileItems>true</EnableDefaultCompileItems>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>latestMajor</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+</Project>

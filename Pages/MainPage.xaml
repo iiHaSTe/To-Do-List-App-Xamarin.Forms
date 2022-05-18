@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage 
+  xmlns="http://xamarin.com/schemas/2014/forms"
+	xmlns:local="clr-namespace:com.haste.todoList"
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	x:Class="com.haste.todoList.MainPage"
+	xmlns:bi="clr-namespace:Xamarin.Forms.Bootstrap.Icons;assembly=Xamarin.Forms.Bootstrap.Icons"
+	Padding="0"
+	BackgroundColor="#131320">
+  <StackLayout>
+    <Label
+      FontSize="20"
+      FontAttributes="bold"
+      Text="TO DO LIST APP"
+      TextTransform="Uppercase"
+      CharacterSpacing="3"
+      TextColor="Snow"
+      HorizontalTextAlignment="Center"
+      Padding="16"
+      BackgroundColor="#0e67f9"
+      HorizontalOptions="FillAndExpand"
+      VerticalOptions="Start"/>
+    <StackLayout
+      Padding="10,10,10,20"
+      BackgroundColor="#eee">
+      <Grid
+        ColumnSpacing="0"
+        RowSpacing="0">
+        <Grid.ColumnDefinitions>
+          <ColumnDefinition Width="4*"></ColumnDefinition>
+          <ColumnDefinition Width="1*"></ColumnDefinition>
+          <ColumnDefinition Width="1*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Entry
+          x:Name="TaskName"
+          Grid.Column="0"
+          Grid.Row="0"
+          BackgroundColor="#161627"
+          Margin="0"
+          MaxLength="20"
+          TextColor="White"
+          Placeholder="Enter Task Name"/>
+        <Button
+          x:Name="Add"
+          Grid.Column="1"
+          Grid.Row="0"
+          BackgroundColor="LimeGreen"
+          Padding="0"
+          BorderRadius="0">
+          <Button.ImageSource>
+            <bi:IconSource Icon="Plus" Size="50" />
+          </Button.ImageSource>
+        </Button>
+        <Button
+          x:Name="ClearAll"
+          Grid.Column="2"
+          Grid.Row="0"
+          BackgroundColor="Red"
+          Padding="0"
+          BorderRadius="0">
+          <Button.ImageSource>
+            <bi:IconSource Icon="Trash"></bi:IconSource>
+          </Button.ImageSource>
+        </Button>
+      </Grid>
+      <ScrollView>
+        <StackLayout
+          Orientation="Vertical"
+          Spacing="0"
+          x:Name="TaskList"
+          Padding="5, 10, 10, 5"></StackLayout>
+      </ScrollView>
+    </StackLayout>
+  </StackLayout>
+</ContentPage>
+
+
